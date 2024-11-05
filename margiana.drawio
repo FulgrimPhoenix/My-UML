@@ -8,7 +8,7 @@
           <mxGeometry x="10" y="70" width="590" height="550" as="geometry" />
         </mxCell>
         <mxCell id="9_OCXf4Tu1wS0NtNP51w-33" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="10" y="650" width="380" height="550" as="geometry" />
+          <mxGeometry x="10" y="650" width="380" height="740" as="geometry" />
         </mxCell>
         <mxCell id="9_OCXf4Tu1wS0NtNP51w-1" value="&lt;b&gt;Данные&lt;/b&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="20" y="90" width="180" height="410" as="geometry">
@@ -31,10 +31,10 @@
           <mxGeometry y="30" width="150" height="60" as="geometry" />
         </mxCell>
         <mxCell id="9_OCXf4Tu1wS0NtNP51w-13" value="&lt;b&gt;Действия админа над объектом&lt;/b&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="230" y="200" width="170" height="210" as="geometry" />
+          <mxGeometry x="230" y="200" width="170" height="230" as="geometry" />
         </mxCell>
-        <mxCell id="9_OCXf4Tu1wS0NtNP51w-14" value="&lt;span style=&quot;background-color: initial;&quot;&gt;1. Товар:&lt;/span&gt;&lt;div&gt;&lt;ul style=&quot;padding-left: 20px; margin-top: 6px;&quot;&gt;&lt;li&gt;Добавить товар&lt;/li&gt;&lt;li&gt;Удалить товар&lt;/li&gt;&lt;li&gt;Редактировать данные товара&lt;/li&gt;&lt;/ul&gt;2. Администратор:&lt;/div&gt;&lt;div&gt;&lt;ul style=&quot;padding-left: 20px; margin-top: 6px;&quot;&gt;&lt;li&gt;Редактировать личные данные&lt;/li&gt;&lt;li&gt;Редактировать контактные данные&amp;nbsp;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="9_OCXf4Tu1wS0NtNP51w-13">
-          <mxGeometry y="30" width="170" height="180" as="geometry" />
+        <mxCell id="9_OCXf4Tu1wS0NtNP51w-14" value="&lt;span style=&quot;background-color: initial;&quot;&gt;1. Товар:&lt;/span&gt;&lt;div&gt;&lt;ul style=&quot;padding-left: 20px; margin-top: 6px;&quot;&gt;&lt;li&gt;Добавить товар&lt;/li&gt;&lt;li&gt;Удалить товар&lt;/li&gt;&lt;li&gt;Редактировать данные товара&lt;/li&gt;&lt;li&gt;установка скидки&lt;/li&gt;&lt;/ul&gt;2. Администратор:&lt;/div&gt;&lt;div&gt;&lt;ul style=&quot;padding-left: 20px; margin-top: 6px;&quot;&gt;&lt;li&gt;Редактировать личные данные&lt;/li&gt;&lt;li&gt;Редактировать контактные данные&amp;nbsp;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="9_OCXf4Tu1wS0NtNP51w-13">
+          <mxGeometry y="30" width="170" height="200" as="geometry" />
         </mxCell>
         <mxCell id="9_OCXf4Tu1wS0NtNP51w-17" value="Действия юзеров" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="430" y="200" width="150" height="170" as="geometry" />
@@ -49,40 +49,71 @@
           <mxGeometry y="30" width="150" height="180" as="geometry" />
         </mxCell>
         <mxCell id="9_OCXf4Tu1wS0NtNP51w-25" value="Компоненты" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="20" y="670" width="140" height="90" as="geometry" />
+          <mxGeometry x="20" y="670" width="140" height="140" as="geometry" />
         </mxCell>
-        <mxCell id="9_OCXf4Tu1wS0NtNP51w-26" value="&lt;ol style=&quot;padding-left: 12px; margin-top: 0px;&quot;&gt;&lt;li&gt;Карточка товара&lt;/li&gt;&lt;li&gt;Форма авторизации&lt;/li&gt;&lt;li&gt;Профиль админа&lt;/li&gt;&lt;/ol&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="9_OCXf4Tu1wS0NtNP51w-25">
-          <mxGeometry y="30" width="140" height="60" as="geometry" />
+        <mxCell id="9_OCXf4Tu1wS0NtNP51w-26" value="&lt;ol style=&quot;padding-left: 12px; margin-top: 0px;&quot;&gt;&lt;li&gt;Карточка товара&lt;/li&gt;&lt;li&gt;Форма авторизации&lt;/li&gt;&lt;li&gt;Форма в профиль админа&lt;/li&gt;&lt;li&gt;Форма добавления товара&lt;/li&gt;&lt;/ol&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="9_OCXf4Tu1wS0NtNP51w-25">
+          <mxGeometry y="30" width="140" height="110" as="geometry" />
         </mxCell>
         <mxCell id="9_OCXf4Tu1wS0NtNP51w-29" value="Данные" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="210" y="670" width="140" height="470" as="geometry" />
+          <mxGeometry x="220" y="670" width="150" height="700" as="geometry" />
         </mxCell>
-        <mxCell id="9_OCXf4Tu1wS0NtNP51w-32" value="1. Карточка товара&lt;div&gt;&lt;ul style=&quot;padding-left: 20px; margin-top: 0px;&quot;&gt;&lt;li&gt;Название&lt;/li&gt;&lt;li&gt;Цена&lt;/li&gt;&lt;li&gt;Описание&lt;/li&gt;&lt;li&gt;Артикул&lt;/li&gt;&lt;li&gt;Категории (теги)&lt;/li&gt;&lt;li&gt;Фотографии&lt;/li&gt;&lt;li&gt;Дополнительная информация о товаре:&lt;/li&gt;&lt;ul style=&quot;padding-left: 20px;&quot;&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial; font-size: 9px;&quot;&gt;&amp;nbsp;Вес&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial; font-size: 9px;&quot;&gt;&amp;nbsp;Размер&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial; font-size: 9px;&quot;&gt;&amp;nbsp;Цвета&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial; font-size: 9px;&quot;&gt;&amp;nbsp;Материал&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/ul&gt;&lt;div&gt;&lt;font size=&quot;1&quot;&gt;2. Форма авторизации&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;ul style=&quot;padding-left: 20px;&quot;&gt;&lt;li&gt;&lt;font size=&quot;1&quot;&gt;Почта&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font size=&quot;1&quot;&gt;Логин&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font size=&quot;1&quot;&gt;Пароль&lt;/font&gt;&lt;/li&gt;&lt;/ul&gt;&lt;div&gt;&lt;font size=&quot;1&quot;&gt;3. Профиль админа&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;ul style=&quot;padding-left: 20px;&quot;&gt;&lt;li&gt;&lt;font size=&quot;1&quot;&gt;Логин&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font size=&quot;1&quot;&gt;Почта&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font size=&quot;1&quot;&gt;Телефон&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font size=&quot;1&quot;&gt;Telegram&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font size=&quot;1&quot;&gt;Whats app&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font size=&quot;1&quot;&gt;Почта для связи&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font size=&quot;1&quot;&gt;Ссылки на соц сети&lt;/font&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="9_OCXf4Tu1wS0NtNP51w-29">
-          <mxGeometry y="30" width="140" height="440" as="geometry" />
+        <mxCell id="9_OCXf4Tu1wS0NtNP51w-32" value="1. Карточка товара&lt;div&gt;&lt;ul style=&quot;padding-left: 20px; margin-top: 0px;&quot;&gt;&lt;li&gt;Название&lt;/li&gt;&lt;li&gt;Цена&lt;/li&gt;&lt;li&gt;Описание&lt;/li&gt;&lt;li&gt;Артикул&lt;/li&gt;&lt;li&gt;Категории (теги)&lt;/li&gt;&lt;li&gt;Фотографии&lt;/li&gt;&lt;li&gt;Дополнительная информация о товаре:&lt;/li&gt;&lt;ul style=&quot;padding-left: 20px;&quot;&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial; font-size: 9px;&quot;&gt;&amp;nbsp;Вес&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial; font-size: 9px;&quot;&gt;&amp;nbsp;Размер&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial; font-size: 9px;&quot;&gt;&amp;nbsp;Цвета&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial; font-size: 9px;&quot;&gt;&amp;nbsp;Материал&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/ul&gt;&lt;div&gt;&lt;font size=&quot;1&quot;&gt;2. Форма авторизации&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;ul style=&quot;padding-left: 20px;&quot;&gt;&lt;li&gt;&lt;font size=&quot;1&quot;&gt;Почта&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font size=&quot;1&quot;&gt;Логин&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font size=&quot;1&quot;&gt;Пароль&lt;/font&gt;&lt;/li&gt;&lt;/ul&gt;&lt;div&gt;&lt;font size=&quot;1&quot;&gt;3. Профиль админа&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;ul style=&quot;padding-left: 20px;&quot;&gt;&lt;li&gt;&lt;font size=&quot;1&quot;&gt;Логин&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font size=&quot;1&quot;&gt;Почта&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font size=&quot;1&quot;&gt;Телефон&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font size=&quot;1&quot;&gt;Telegram&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font size=&quot;1&quot;&gt;Whats app&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font size=&quot;1&quot;&gt;Почта для связи&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font size=&quot;1&quot;&gt;Ссылки на соц сети&lt;/font&gt;&lt;/li&gt;&lt;/ul&gt;&lt;div&gt;&lt;font size=&quot;1&quot;&gt;4. Форма добавления товара&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;ul style=&quot;padding-left: 20px;&quot;&gt;&lt;li&gt;Название&lt;/li&gt;&lt;li&gt;Цена&lt;/li&gt;&lt;li&gt;Описание&lt;/li&gt;&lt;li&gt;Артикул/id?&lt;/li&gt;&lt;li&gt;Категории (теги)&lt;/li&gt;&lt;li&gt;Фотографии&lt;/li&gt;&lt;li&gt;Скидка&lt;/li&gt;&lt;li&gt;Дополнительная информация о товаре:&lt;/li&gt;&lt;ul style=&quot;padding-left: 20px;&quot;&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial; font-size: 9px;&quot;&gt;&amp;nbsp;Вес&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial; font-size: 9px;&quot;&gt;&amp;nbsp;Размер&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial; font-size: 9px;&quot;&gt;&amp;nbsp;Цвета&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial; font-size: 9px;&quot;&gt;&amp;nbsp;Материал&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/ul&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="9_OCXf4Tu1wS0NtNP51w-29">
+          <mxGeometry y="30" width="150" height="670" as="geometry" />
         </mxCell>
         <mxCell id="9_OCXf4Tu1wS0NtNP51w-38" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="500" y="650" width="650" height="330" as="geometry" />
+          <mxGeometry x="500" y="650" width="650" height="210" as="geometry" />
         </mxCell>
         <mxCell id="9_OCXf4Tu1wS0NtNP51w-39" value="" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
-          <mxGeometry x="500" y="650" width="220" height="330" as="geometry" />
+          <mxGeometry x="500" y="650" width="220" height="210" as="geometry" />
         </mxCell>
         <mxCell id="9_OCXf4Tu1wS0NtNP51w-40" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="930" y="650" width="220" height="330" as="geometry" />
+          <mxGeometry x="930" y="650" width="220" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="9_OCXf4Tu1wS0NtNP51w-60" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="9_OCXf4Tu1wS0NtNP51w-42" target="9_OCXf4Tu1wS0NtNP51w-49">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9_OCXf4Tu1wS0NtNP51w-61" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="9_OCXf4Tu1wS0NtNP51w-42" target="9_OCXf4Tu1wS0NtNP51w-52">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="9_OCXf4Tu1wS0NtNP51w-42" value="&lt;span style=&quot;background-color: initial;&quot;&gt;Страница профиля админа&lt;/span&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="520" y="730" width="160" height="20" as="geometry" />
         </mxCell>
+        <mxCell id="9_OCXf4Tu1wS0NtNP51w-64" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="9_OCXf4Tu1wS0NtNP51w-43" target="9_OCXf4Tu1wS0NtNP51w-49">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="9_OCXf4Tu1wS0NtNP51w-43" value="&lt;span style=&quot;&quot;&gt;Страница логирования&lt;/span&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="520" y="750" width="150" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="9_OCXf4Tu1wS0NtNP51w-59" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="9_OCXf4Tu1wS0NtNP51w-44" target="9_OCXf4Tu1wS0NtNP51w-47">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="700" y="720" />
+              <mxPoint x="700" y="675" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="9_OCXf4Tu1wS0NtNP51w-44" value="&lt;span style=&quot;background-color: initial;&quot;&gt;Страница товара&lt;/span&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="520" y="710" width="160" height="20" as="geometry" />
         </mxCell>
+        <mxCell id="9_OCXf4Tu1wS0NtNP51w-58" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="9_OCXf4Tu1wS0NtNP51w-45" target="9_OCXf4Tu1wS0NtNP51w-47">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="700" y="700" />
+              <mxPoint x="700" y="685" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="9_OCXf4Tu1wS0NtNP51w-45" value="Страница списка товаров" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="520" y="690" width="160" height="20" as="geometry" />
         </mxCell>
+        <mxCell id="9_OCXf4Tu1wS0NtNP51w-57" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="9_OCXf4Tu1wS0NtNP51w-46" target="9_OCXf4Tu1wS0NtNP51w-47">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="9_OCXf4Tu1wS0NtNP51w-46" value="Главная страница" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="520" y="670" width="150" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="9_OCXf4Tu1wS0NtNP51w-66" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="9_OCXf4Tu1wS0NtNP51w-47" target="9_OCXf4Tu1wS0NtNP51w-48">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="9_OCXf4Tu1wS0NtNP51w-47" value="Карточка товара" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="755" y="670" width="140" height="20" as="geometry" />
@@ -90,20 +121,44 @@
         <mxCell id="9_OCXf4Tu1wS0NtNP51w-48" value="Модель товара" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="990" y="670" width="100" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="9_OCXf4Tu1wS0NtNP51w-49" value="Форма авторизации" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="767.5" y="710" width="115" height="20" as="geometry" />
+        <mxCell id="9_OCXf4Tu1wS0NtNP51w-67" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="9_OCXf4Tu1wS0NtNP51w-49" target="9_OCXf4Tu1wS0NtNP51w-50">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="9_OCXf4Tu1wS0NtNP51w-50" value="Модель пользователя (Админа)" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="950" y="710" width="180" height="20" as="geometry" />
+        <mxCell id="9_OCXf4Tu1wS0NtNP51w-49" value="Форма авторизационных данных" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="730" y="710" width="190" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="9_OCXf4Tu1wS0NtNP51w-52" value="Профиль админа" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="750" y="752.5" width="150" height="15" as="geometry" />
+        <mxCell id="9_OCXf4Tu1wS0NtNP51w-50" value="Модель Админа" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="950" y="730" width="180" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="9_OCXf4Tu1wS0NtNP51w-68" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.25;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="9_OCXf4Tu1wS0NtNP51w-52" target="9_OCXf4Tu1wS0NtNP51w-50">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="940" y="763" />
+              <mxPoint x="940" y="770" />
+              <mxPoint x="995" y="770" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9_OCXf4Tu1wS0NtNP51w-52" value="Форма контактных данных" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="740" y="755" width="170" height="15" as="geometry" />
+        </mxCell>
+        <mxCell id="9_OCXf4Tu1wS0NtNP51w-65" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="9_OCXf4Tu1wS0NtNP51w-53" target="9_OCXf4Tu1wS0NtNP51w-52">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="9_OCXf4Tu1wS0NtNP51w-53" value="&lt;span style=&quot;&quot;&gt;Страница контактов&lt;/span&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="520" y="770" width="150" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="9_OCXf4Tu1wS0NtNP51w-54" value="Модель контактных данных" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="955" y="750" width="170" height="20" as="geometry" />
+        <mxCell id="9_OCXf4Tu1wS0NtNP51w-72" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="9_OCXf4Tu1wS0NtNP51w-70" target="9_OCXf4Tu1wS0NtNP51w-71">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9_OCXf4Tu1wS0NtNP51w-70" value="&lt;span style=&quot;&quot;&gt;Страница добавления товара&lt;/span&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="520" y="790" width="180" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="9_OCXf4Tu1wS0NtNP51w-73" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="9_OCXf4Tu1wS0NtNP51w-71" target="9_OCXf4Tu1wS0NtNP51w-48">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9_OCXf4Tu1wS0NtNP51w-71" value="&lt;span style=&quot;text-align: left; background-color: initial;&quot;&gt;Форма добавления товара&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="733.5" y="785" width="183" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
