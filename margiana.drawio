@@ -1,9 +1,47 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 YaBrowser/24.10.0.0 Safari/537.36" version="24.8.4">
   <diagram name="Страница — 1" id="TJOQguTnTOr0kiB2hh4c">
-    <mxGraphModel>
+    <mxGraphModel dx="956" dy="529" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="9_OCXf4Tu1wS0NtNP51w-1" value="&lt;b&gt;Данные&lt;/b&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="20" y="90" width="180" height="480" as="geometry">
+            <mxRectangle x="20" y="90" width="90" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9_OCXf4Tu1wS0NtNP51w-2" value="&lt;p style=&quot;font-size: 8px;&quot;&gt;1. Название товара&lt;/p&gt;&lt;p style=&quot;font-size: 8px;&quot;&gt;2. Изображение/ия товара&lt;/p&gt;&lt;p style=&quot;font-size: 8px;&quot;&gt;3. Категория товара&lt;/p&gt;&lt;p style=&quot;font-size: 8px;&quot;&gt;4. Цена товара&lt;/p&gt;&lt;p style=&quot;font-size: 8px;&quot;&gt;5. Скидка на товар&lt;/p&gt;&lt;p style=&quot;font-size: 8px;&quot;&gt;6. Описание товара&lt;/p&gt;&lt;p style=&quot;font-size: 8px;&quot;&gt;7. Дополнительная информация о товаре&lt;/p&gt;&lt;p style=&quot;font-size: 8px;&quot;&gt;&amp;nbsp;- Вес&lt;/p&gt;&lt;p style=&quot;font-size: 8px;&quot;&gt;&amp;nbsp;- Размер&lt;/p&gt;&lt;p style=&quot;font-size: 8px;&quot;&gt;&amp;nbsp;- Цвета&lt;/p&gt;&lt;p style=&quot;font-size: 8px;&quot;&gt;&amp;nbsp;- Материал&lt;/p&gt;&lt;p style=&quot;font-size: 8px;&quot;&gt;8. Ссылки на соц сети&lt;/p&gt;&lt;p style=&quot;font-size: 8px;&quot;&gt;9. Контакты:&lt;/p&gt;&lt;p style=&quot;font-size: 8px;&quot;&gt;&amp;nbsp;- телефон&lt;/p&gt;&lt;p style=&quot;font-size: 8px;&quot;&gt;&amp;nbsp;- почта&lt;/p&gt;&lt;p style=&quot;font-size: 8px;&quot;&gt;&amp;nbsp;- whats app&lt;/p&gt;&lt;p style=&quot;font-size: 8px;&quot;&gt;&amp;nbsp;- telegramm&lt;/p&gt;&lt;p style=&quot;font-size: 8px;&quot;&gt;10. Данные администратора&lt;/p&gt;&lt;p style=&quot;font-size: 8px;&quot;&gt;&amp;nbsp;- Почта&lt;/p&gt;&lt;p style=&quot;font-size: 8px;&quot;&gt;&amp;nbsp;- Логин&lt;/p&gt;&lt;p style=&quot;font-size: 8px;&quot;&gt;&amp;nbsp;- Пароль&lt;/p&gt;&lt;p style=&quot;font-size: 8px;&quot;&gt;&amp;nbsp;- Телефон&lt;/p&gt;&lt;p style=&quot;font-size: 8px;&quot;&gt;&amp;nbsp;- Почта для общения&lt;/p&gt;&lt;p style=&quot;font-size: 8px;&quot;&gt;&amp;nbsp;- whats app&lt;/p&gt;&lt;p style=&quot;font-size: 8px;&quot;&gt;&amp;nbsp;- telegram&lt;/p&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontSize=8;" vertex="1" parent="9_OCXf4Tu1wS0NtNP51w-1">
+          <mxGeometry y="30" width="180" height="450" as="geometry" />
+        </mxCell>
+        <mxCell id="9_OCXf4Tu1wS0NtNP51w-5" value="&lt;b&gt;Объекты&lt;/b&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="230" y="90" width="170" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="9_OCXf4Tu1wS0NtNP51w-6" value="&lt;span style=&quot;background-color: initial; font-size: 13px;&quot;&gt;1. Товар&lt;/span&gt;&lt;br style=&quot;font-size: 13px;&quot;&gt;&lt;span style=&quot;background-color: initial; font-size: 13px;&quot;&gt;2. Администратор&lt;/span&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontSize=13;" vertex="1" parent="9_OCXf4Tu1wS0NtNP51w-5">
+          <mxGeometry y="30" width="170" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="9_OCXf4Tu1wS0NtNP51w-9" value="&lt;b&gt;Коллекции&lt;/b&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="430" y="90" width="150" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="9_OCXf4Tu1wS0NtNP51w-10" value="1. Каталог товаров&lt;div&gt;2. Каталог главных анонсов&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="9_OCXf4Tu1wS0NtNP51w-9">
+          <mxGeometry y="30" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9_OCXf4Tu1wS0NtNP51w-13" value="&lt;b&gt;Действия админа над объектом&lt;/b&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="230" y="200" width="170" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="9_OCXf4Tu1wS0NtNP51w-14" value="&lt;span style=&quot;background-color: initial;&quot;&gt;1. Товар:&lt;/span&gt;&lt;div&gt;&lt;ul style=&quot;padding-left: 20px; margin-top: 6px;&quot;&gt;&lt;li&gt;Добавить товар&lt;/li&gt;&lt;li&gt;Удалить товар&lt;/li&gt;&lt;li&gt;Редактировать данные товара&lt;/li&gt;&lt;/ul&gt;2. Администратор:&lt;/div&gt;&lt;div&gt;&lt;ul style=&quot;padding-left: 20px; margin-top: 6px;&quot;&gt;&lt;li&gt;Редактировать личные данные&lt;/li&gt;&lt;li&gt;Редактировать контактные данные&amp;nbsp;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="9_OCXf4Tu1wS0NtNP51w-13">
+          <mxGeometry y="30" width="170" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="9_OCXf4Tu1wS0NtNP51w-17" value="Действия юзеров" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="430" y="200" width="150" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="9_OCXf4Tu1wS0NtNP51w-20" value="1. Каталог товаров&lt;br&gt;&lt;ul style=&quot;padding-left: 20px; margin-top: 6px;&quot;&gt;&lt;li&gt;Получать каталог&lt;/li&gt;&lt;li&gt;Сортировать каталог&lt;/li&gt;&lt;/ul&gt;&lt;div&gt;2. Каталог главных анонсов&lt;/div&gt;&lt;div&gt;&lt;ul style=&quot;padding-left: 20px; margin-top: 6px;&quot;&gt;&lt;li&gt;Получать каталог&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="9_OCXf4Tu1wS0NtNP51w-17">
+          <mxGeometry y="30" width="150" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="9_OCXf4Tu1wS0NtNP51w-21" value="Действия админа" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="430" y="390" width="150" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="9_OCXf4Tu1wS0NtNP51w-22" value="1. Каталог товаров&lt;br&gt;&lt;ul style=&quot;padding-left: 20px; margin-top: 6px;&quot;&gt;&lt;li&gt;Получать каталог&lt;/li&gt;&lt;li&gt;Сортировать каталог&lt;/li&gt;&lt;li&gt;Добавлять позиции&lt;/li&gt;&lt;li&gt;Убирать позиции&lt;/li&gt;&lt;/ul&gt;&lt;div&gt;2. Каталог главных анонсов&lt;/div&gt;&lt;div&gt;&lt;ul style=&quot;padding-left: 20px; margin-top: 6px;&quot;&gt;&lt;li&gt;Получать каталог&lt;/li&gt;&lt;li&gt;Добавлять позиции&lt;/li&gt;&lt;li&gt;Убирать позиции&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="9_OCXf4Tu1wS0NtNP51w-21">
+          <mxGeometry y="30" width="150" height="180" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
